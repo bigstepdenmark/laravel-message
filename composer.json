@@ -22,7 +22,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url":  "https://github.com/bigstepdenmark/laravel-message.git"
+      "url":  "https://github.com/bigstepdenmar/laravel-message.git"
     }
   ]
 }
