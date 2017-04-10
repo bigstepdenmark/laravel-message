@@ -1,9 +1,15 @@
 <?php
 
-Route::get( 'bigstep',
+Route::group( [ 'middleware' => 'web',
+                'prefix'     => 'bigstep' ],
     function()
     {
-        return "It's work :))";
-    } );
+        Route::get( '',
+            function()
+            {
+                return "It's work :))";
+            } );
 
-Route::get( 'bigstep/controller', 'Bigstepdenmark\Message\Http\Controllers\MessageController@index' );
+        Route::get( 'controller', 'Bigstepdenmark\Message\Http\Controllers\MessageController@index' );
+
+    } );
