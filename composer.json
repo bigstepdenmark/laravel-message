@@ -18,5 +18,11 @@
     "psr-4": {
       "Bigstepdenmark\\Message\\": "src"
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/bigstepdenmark/laravel-message.git"
+    }
+  ]
 }
