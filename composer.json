@@ -1,0 +1,22 @@
+{
+  "name": "bigstepdenmark/message",
+  "description": "No description",
+  "type": "laravel",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bigstepdenmark",
+      "email": "i@bigstep.dk",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bigstepdenmark\\Message\\": "src"
+    }
+  }
+}
